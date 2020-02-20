@@ -68,6 +68,6 @@ app.use(campgroundRoutes);
 
 
 //PORT CONFIG
-app.listen(process.enb.PORT || 1000, function(){
+app.listen(process.env.PORT || 1000, function(){
     console.log("YelpCamp started ...");
  });
