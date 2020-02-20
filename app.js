@@ -18,7 +18,8 @@ var authRoutes = require("./routes/auth");
 var commentRoutes = require("./routes/comments");
 var campgroundRoutes = require("./routes/campgrounds");
 
-mongoose.connect('mongodb+srv://mahdi:Shakib@75@cluster0-cpgfn.mongodb.net/test?retryWrites=true&w=majority', {
+
+mongoose.connect(process.env.DATABASEURL, {
 	useNewUrlParser: true,
 	useCreateIndex: true
 }).then(() => {
@@ -61,9 +62,6 @@ app.use(campgroundRoutes);
 
 //generated data
 // seedsDB();
-
-
-
 
 
 
