@@ -1,0 +1,34 @@
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+body{
+    background-image: url("https://www.creditfixnow.com/wp-content/uploads/2018/02/350829-widescreen-website-background-1920x1080-windows-xp.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.card {
+    border: none;
+    
+}
+header .container {
+    background-color: rgba(10,10,10,0.5);
+    margin-top: 10%;
+    color: white;
+}
+
+.jumbotron {
+    background-image: url("https://wallpaperaccess.com/full/181060.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: hard-light;
+    padding: 2rem 0;
+    height: 30rem;
+}
+
