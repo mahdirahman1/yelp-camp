@@ -81,7 +81,7 @@
       });
     }
   </script>
-  <script async defer src="<%= process.env.GEOCODER_API %>"></script>
+  <script async defer src="<%= process.env.GEOCODER_API %>&callback=initMap"></script>
 
 
 <%- include("../partials/footer") %>
