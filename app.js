@@ -8,7 +8,6 @@ var express = require('express'),
     localStrategy = require('passport-local'),
     methodOverride = require('method-override');
     passportLocalMongoose = require('passport-local-mongoose'),
-    seedsDB = require("./seeds"),
     Campground = require("./models/campground"),
     User = require("./models/user"),
     Comment = require("./models/comment");

@@ -5,7 +5,8 @@
 }
 
 body{
-    background-image: url("https://www.creditfixnow.com/wp-content/uploads/2018/02/350829-widescreen-website-background-1920x1080-windows-xp.jpg");
+    /*background-image: url("https://www.creditfixnow.com/wp-content/uploads/2018/02/350829-widescreen-website-background-1920x1080-windows-xp.jpg");*/
+    background-image: url('https://hdwallpapers.imgix.net/freestockphotos-449015656304473w9frq5tgt.jpg?auto=compress&cs=tinysrgb&dpr=1');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -22,7 +23,7 @@ header .container {
 }
 
 .jumbotron {
-    background-image: url("https://wallpaperaccess.com/full/181060.jpg") ;
+    background-image: url("https://media.giphy.com/media/xUA7biAmbpRS5yeajK/giphy.gif") ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -27,7 +27,6 @@ router.post("/register", function(req, res){
     });
 });
 
-
 //LOGIN
 router.get("/login", function(req,res){
     res.render("login");
