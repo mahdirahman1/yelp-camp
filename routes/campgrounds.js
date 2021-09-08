@@ -48,14 +48,10 @@ router.post("/campgrounds", middleware.isLoggedIn, function(req, res){
         username: req.user.username
     }
     geocoder.geocode(req.body.location, function (err, data) {
-      if (err || !data.length) {
-        req.flash('error', 'Invalid address');
-        console.log(err);
-        return res.redirect('back');
-      }
-      var lat = data[0].latitude;
-      var lng = data[0].longitude;
-      var location = data[0].formattedAddress;
+     var lat = 0;
+     var lng = 0;
+     var location = "None";
+    
       var newCampground = {name: name,price: price, image: image, description: desc, author:author, location: location, lat: lat, lng: lng};
       // Create a new campground and save to DB
       Campground.create(newCampground, function(err, newlyCreated){
